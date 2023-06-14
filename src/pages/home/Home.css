@@ -1,0 +1,18 @@
+.win-img {
+    max-width: 70%;
+    margin: 10px auto;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+.slogan {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--color-bg);
+    font-weight: 800;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 40px auto;
+}

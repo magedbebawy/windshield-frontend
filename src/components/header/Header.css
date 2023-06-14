@@ -1,0 +1,44 @@
+header {
+    width: 100vw;
+    background-image: url('../../assets/windshield.webp');
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: var(--color-primary);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 5vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: var(--color-primary);
+    border-radius: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 22px;
+}

@@ -1,0 +1,13 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+  --color-primary: #e81704;
+  --color-secondry: #FFD8D8;
+  --color-bg: #141b1b;
+  --color-primary-variant: #87CEEB;
+}

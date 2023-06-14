@@ -1,0 +1,28 @@
+.contact {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    clear: both;
+}
+
+form input, form textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+form textarea {
+    height: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .contact {
+        width: 100%;
+    }
+    form input, form textarea {
+        width: 80%;
+    }
+}

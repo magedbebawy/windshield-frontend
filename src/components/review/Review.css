@@ -1,0 +1,38 @@
+.review {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(59, 57, 57);
+    color: whitesmoke;
+    padding: 40px;
+}
+
+.review h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.review h2, .review p {    
+    margin: 20px auto;
+    text-align: center;
+    width: 40%;
+    font-size: 18px;
+}
+
+.reviewdot {
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.reviewdot div {
+    margin: 0 40px;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .review h2, .review p {
+        width: 80%;
+    }
+}
