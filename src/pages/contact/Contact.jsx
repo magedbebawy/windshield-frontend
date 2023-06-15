@@ -74,7 +74,7 @@ function Contact(){
 };
 
 async function sendEmail(formData, callback) {
-  const response = await fetch('http://localhost:3001/contact', {
+  const response = await fetch('https://windshield-backend.herokuapp.com/contact', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

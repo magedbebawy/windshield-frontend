@@ -112,7 +112,7 @@ function Quote(){
 };
 
 async function sendEmail(formData, callback) {
-  const res = await fetch('http://localhost:3001/quote', {
+  const res = await fetch('https://windshield-backend.herokuapp.com/quote', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
